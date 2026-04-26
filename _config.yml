@@ -1,0 +1,38 @@
+title: ARTIQ Wiki
+description: Notes and documentation for ARTIQ quantum control experiments
+baseurl: "/wiki-artiq"
+url: "https://ksingh1121.github.io"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Enable search
+search_enabled: true
+
+# Footer content
+footer_content: "ARTIQ Wiki &mdash; maintained by Kunal Singh, MPQ"
+
+# Aux links (top-right)
+aux_links:
+  "GitHub":
+    - "https://github.com/ksingh1121/wiki-artiq"
+
+aux_links_new_tab: true
+
+# Navigation order
+nav_sort: case_insensitive
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
